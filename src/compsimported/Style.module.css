@@ -1,0 +1,11 @@
+.timeColor {
+    color: green;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.timeFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
