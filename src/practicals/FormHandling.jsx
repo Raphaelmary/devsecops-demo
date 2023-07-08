@@ -43,7 +43,7 @@ function FormHandling(){
                     </select>
                 </div>
                 <div>
-                    <span>Agree?</span>
+                    <span>Agree? Click</span>
                     <input type='checkbox' name='agree' value={userLogin.agree} onChange={handleInput}/>
                 </div>
             </form>
