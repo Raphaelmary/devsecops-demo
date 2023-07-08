@@ -39,7 +39,7 @@ function FormHandling(){
                     <select value={userLogin.designation} name='designation' onChange={handleInput}>
                         <option>select designation</option>
                         <option value='sr. dev'>Sr. Dev</option>
-                        <option value='tech lead'>Tech Lead</option>
+                        <option value='tech Pro'>Tech Lead</option>
                     </select>
                 </div>
                 <div>

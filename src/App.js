@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ClassComponent from './devops/ClassComponent';
+// import ClassComponent from './devops/ClassComponent';
 import Devops from './devops/Devops';
 // import SearchBar from './compsimported/searchbar/SearchBar';
 // import SearchApp from './practicals/SearchApp';
@@ -10,7 +10,7 @@ import Devops from './devops/Devops';
 // import Parent from './practicals/compinteract/Parent';
 // import Counter from './practicals/Counter';
 // import FetchApi from './practicals/FetchApi';
-// import FormHandling from './practicals/FormHandling';
+import FormHandling from './practicals/FormHandling';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <div className='wrapper'>
         <h1 style={{color: '#333', fontFamily: 'Poppins'}}>React</h1>
           <Devops />
-          <ClassComponent />
+          <FormHandling />
       </div>
     </div>
   );
